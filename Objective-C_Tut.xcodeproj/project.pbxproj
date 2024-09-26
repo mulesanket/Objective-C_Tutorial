@@ -63,6 +63,17 @@
 			path = "MemoryManagement_Obj-C";
 			sourceTree = "<group>";
 		};
+		6D19FF3D2CA53E8C0032F8EB /* Extension_Category */ = {
+			isa = PBXGroup;
+			children = (
+				6D19FF3A2CA538700032F8EB /* NSString+WordCount.h */,
+				6D19FF3B2CA538700032F8EB /* NSString+WordCount.m */,
+				6D19FF372CA533B50032F8EB /* Person.h */,
+				6D19FF382CA533B50032F8EB /* Person.m */,
+			);
+			path = Extension_Category;
+			sourceTree = "<group>";
+		};
 		6D8792FE2CA2AD8E00AC2D51 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +93,7 @@
 		6D8793092CA2AD8E00AC2D51 /* Objective-C_Tut */ = {
 			isa = PBXGroup;
 			children = (
+				6D19FF3D2CA53E8C0032F8EB /* Extension_Category */,
 				6D8793342CA3D9D200AC2D51 /* Protocol_Delegate */,
 				6D19FF342CA5257F0032F8EB /* MemoryManagement_Obj-C */,
 				6D87930A2CA2AD8E00AC2D51 /* AppDelegate.h */,
@@ -96,10 +108,6 @@
 				6D87931E2CA2AD9200AC2D51 /* Info.plist */,
 				6D87931F2CA2AD9200AC2D51 /* main.m */,
 				6D8793162CA2AD8F00AC2D51 /* Objective_C_Tut.xcdatamodeld */,
-				6D19FF372CA533B50032F8EB /* Person.h */,
-				6D19FF382CA533B50032F8EB /* Person.m */,
-				6D19FF3A2CA538700032F8EB /* NSString+WordCount.h */,
-				6D19FF3B2CA538700032F8EB /* NSString+WordCount.m */,
 			);
 			path = "Objective-C_Tut";
 			sourceTree = "<group>";
