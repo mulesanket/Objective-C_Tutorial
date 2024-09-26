@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "NSString+WordCount.h"
 
 @interface ViewController ()
 
@@ -15,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    Person *person = [[Person alloc]init];
+    person.name = @"Sanket Mule";
+    person.age = 24;
+    [person printPersonDetails];
+    
+    NSString *sentence = @"Hello World";
+    NSLog(@"Word count is: %ld");
 }
 
 
